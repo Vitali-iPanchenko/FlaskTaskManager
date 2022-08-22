@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create Task</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css"
+          integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH"
+          crossorigin="anonymous">
+</head>
+
+<body style="background-image: linear-gradient(#DAF7A6, #FFC300, #FF5733, #C70039, #900C3F, #581845);
+background-attachment: fixed">
+
+<h3 style="text-align: center">Task Manager</h3><br><br>
+
+<div style="margin: auto; width: 50%">
+<form method="post" class="pure-form pure-form-aligned" action="/create">
+    Task Content <input type="text"
+                        name="Content"
+                        style="float: right; margin-right: 10%; width: 70%"><br><br>
+    Task Deadline <input type="text"
+                         name="Deadline"
+                         style="float: right; margin-right: 10%; width: 70%"><br><br><br>
+    <button type="submit" class="pure-button" value="Submit">Create</button>
+</form>
+        <a href="/">Back</a>
+</div>
+</body>
+
+</html>
